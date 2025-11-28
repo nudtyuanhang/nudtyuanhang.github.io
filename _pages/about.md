@@ -27,9 +27,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Yuanhang (源航) is a first-year PhD student at NUDT, advised by Prof. Xiangrui Yang and Dongsheng Li. 
+Yuanhang (源航) is a first-year PhD student at National University of Defense Technology, advised by Prof. Xiangrui Yang and Dongsheng Li. Before that, He got his Master degree in NUDT, in june 2025.
 
-His research focuses on In-network Computing, in particular system for AI. To learn more about her work, see pubulications.
+His research focuses on System and Networking, in particular system for AI. To learn more about his work, see [pubulications](/_pages/publications.md).
 
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
