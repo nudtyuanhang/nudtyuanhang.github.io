@@ -5,7 +5,7 @@
     "image": "",
     "email": "gaoyh@nudt.edu.cn",
     "phone": "",
-    "url": "https://scholar.google.com/citations?user=zo6xp3kAAAAJ"
+    "googleScholar": "https://scholar.google.com/citations?user=zo6xp3kAAAAJ"
   },
   "education": [
     {
@@ -14,9 +14,21 @@
       "url": "https://www.nudt.edu.cn/",
       "area": "Computer Science",
       "studyType": "PhD",
-      "startDate": "2026-03-01",
       "endDate": "present",
       "research": ["System and Networking", "System for AI"]
+    },
+    {
+      "institution": "National University of Defense Technology, Changsha, China",
+      "studyType": "Master",
+      "startDate": "2022-09-01",
+      "endDate": "2025-06-30",
+      "research": ["In-Network Computing", "Programmable Switches"]
+    },
+    {
+      "institution": "Zhengzhou University, Zhengzhou, China",
+      "studyType": "Bachelor",
+      "startDate": "2018-09-01",
+      "endDate": "2022-06-30"
     }
   ],
   "publications": [
