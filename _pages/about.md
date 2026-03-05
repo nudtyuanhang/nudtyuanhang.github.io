@@ -5,31 +5,28 @@ permalink: /
 #subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  #more_info: >
-  #  <p>555 your office number</p>
-  #  <p>123 your address street</p>
-  #  <p>Your City, State 12345</p>
+  image_circular: false
+  width: 30%
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 3
 ---
 
-Yuanhang (源航) is a PhD candidate at National University of Defense Technology(NUDT), advised by Prof. Xiangrui Yang and Prof. Dongsheng Li. Before that, He got Master degree in NUDT, in june 2025.
+Yuanhang (源航) is a PhD candidate at National University of Defense Technology (NUDT), advised by Prof. Xiangrui Yang and Prof. Dongsheng Li. Before that, He got Master degree in NUDT, in June 2025.
 
-His research focuses on System for AI, in particular LLM inference. To learn more about his work, see [pubulications](https://nudtyuanhang.github.io/publications/).
+His research focuses on System for AI, in particular LLM inference. To learn more about his work, see [publications](https://nudtyuanhang.github.io/publications/).
 
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
