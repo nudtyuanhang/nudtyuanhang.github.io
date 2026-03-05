@@ -30,7 +30,40 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
+        },{id: "post-llm-inference-optimization-routing-quantization-amp-system-acceleration",
+        
+          title: "LLM Inference Optimization: Routing, Quantization &amp; System Acceleration",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/llm-inference-optimization/";
+          
+        },
+      },{id: "post-openai-o1-amp-o3-the-rise-of-reasoning-models",
+        
+          title: "OpenAI o1 &amp; o3: The Rise of Reasoning Models",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/openai-o1-o3-reasoning/";
+          
+        },
+      },{id: "post-deepmind-39-s-mind-evolution-scaling-llm-inference-with-evolutionary-search",
+        
+          title: "DeepMind&#39;s Mind Evolution: Scaling LLM Inference with Evolutionary Search",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/deepmind-mind-evolution/";
+          
+        },
+      },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
         
           title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
@@ -60,22 +93,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "news-deepmind-39-s-mind-evolution-scaling-llm-inference-with-evolutionary-search",
-          title: 'DeepMind&amp;#39;s Mind Evolution: Scaling LLM Inference with Evolutionary Search',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/deepmind_mind_evolution/";
-            },},{id: "news-openai-o1-amp-o3-the-rise-of-reasoning-models",
-          title: 'OpenAI o1 &amp;amp; o3: The Rise of Reasoning Models',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/openai_o1_o3_reasoning/";
-            },},{id: "news-llm-inference-optimization-routing-quantization-amp-system-acceleration",
-          title: 'LLM Inference Optimization: Routing, Quantization &amp;amp; System Acceleration',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/llm_inference_optimization/";
-            },},{id: "news-the-personal-homepage-has-officially-been-launched",
+          section: "News",},{id: "news-the-personal-homepage-has-officially-been-launched",
           title: 'The personal homepage has officially been launched.',
           description: "",
           section: "News",},{
