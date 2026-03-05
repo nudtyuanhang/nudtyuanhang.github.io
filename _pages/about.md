@@ -5,13 +5,12 @@ permalink: /
 #subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
-  align: left
+  align: right
   image: prof_pic.jpg
   image_circular: false
-  width: 30%
 
 selected_papers: true
-social: true
+social: false
 
 announcements:
   enabled: true
