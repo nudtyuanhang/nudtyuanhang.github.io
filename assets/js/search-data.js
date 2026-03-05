@@ -57,15 +57,25 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "news-the-personal-homepage-has-officially-been-launched",
+          section: "News",},{id: "news-deepmind-39-s-mind-evolution-scaling-llm-inference-with-evolutionary-search",
+          title: 'DeepMind&amp;#39;s Mind Evolution: Scaling LLM Inference with Evolutionary Search',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/deepmind_mind_evolution/";
+            },},{id: "news-openai-o1-amp-o3-the-rise-of-reasoning-models",
+          title: 'OpenAI o1 &amp;amp; o3: The Rise of Reasoning Models',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/openai_o1_o3_reasoning/";
+            },},{id: "news-llm-inference-optimization-routing-quantization-amp-system-acceleration",
+          title: 'LLM Inference Optimization: Routing, Quantization &amp;amp; System Acceleration',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/llm_inference_optimization/";
+            },},{id: "news-the-personal-homepage-has-officially-been-launched",
           title: 'The personal homepage has officially been launched.',
           description: "",
           section: "News",},{
