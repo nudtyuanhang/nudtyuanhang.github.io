@@ -51,6 +51,7 @@ pre-commit run --all-files
 ### CI/CD Workflows
 
 The project uses GitHub Actions. Key workflows:
+
 - `prettier.yml` - Code formatting checks
 - `deploy.yml` - Site deployment to GitHub Pages
 - `broken-links.yml` - Link validation
@@ -69,6 +70,7 @@ The project uses GitHub Actions. Key workflows:
 ### Markdown (Posts, Pages)
 
 - Use standard Jekyll frontmatter:
+
 ```yaml
 ---
 layout: post
@@ -86,32 +88,37 @@ categories: [Category]
 - Use Prettier's 150-character line width
 - Use trailing commas in YAML lists (es5 style)
 
-### YAML Configuration (_config.yml)
+### YAML Configuration (\_config.yml)
 
 - Use 2-space indentation
 - Quote strings with special characters
 - Use lowercase with underscores for keys
 - Example:
+
 ```yaml
 blog_name: My Blog
 blog_description: A personal blog
 permalink: /blog/:year/:title/
 ```
 
-### Liquid Templates (_includes, _layouts)
+### Liquid Templates (\_includes, \_layouts)
 
-- Use whitespace control (`{%-`, `-%}`) to prevent extra newlines
+- Use whitespace control (`{% raw %}{%-{% endraw %}`, `{% raw %}-%}{% endraw %}`) to prevent extra newlines
 - Use descriptive variable names
 - Keep templates simple and modular
 - Use filters for data transformation
 - Example:
+  {% raw %}
+
 ```liquid
 {%- if site.blog_name -%}
   <h1>{{ site.blog_name }}</h1>
 {%- endif -%}
 ```
 
-### SCSS Styles (_sass)
+{% endraw %}
+
+### SCSS Styles (\_sass)
 
 - Follow existing naming conventions (BEM-like with dashes)
 - Use variables from `_variables.scss`
@@ -156,7 +163,7 @@ permalink: /blog/:year/:title/
 layout: post
 title: "Descriptive Title"
 date: 2025-01-22 10:00:00
-inline: false    # true for short inline posts
+inline: false # true for short inline posts
 related_posts: false
 tags: [tag1, tag2]
 categories: [category1]
@@ -180,15 +187,19 @@ nav_order: 1
 ## 5. Adding New Content
 
 ### News Post
+
 Create file in `_news/` with format `YYYY-MM-DD-title.md`
 
 ### Blog Post
+
 Create file in `_posts/` with format `YYYY-MM-DD-title.md`
 
 ### Page
+
 Create file in `_pages/` as `pagename.md`
 
 ### Project
+
 Add to `_projects/` directory with appropriate YAML frontmatter
 
 ---
@@ -207,6 +218,6 @@ Before submitting changes:
 ## 7. Common Issues
 
 - **Build failures**: Run `bundle exec jekyll clean` then rebuild
-- **Plugin errors**: Check Gemfile matches _config.yml plugins
+- **Plugin errors**: Check Gemfile matches \_config.yml plugins
 - **Docker issues**: Rebuild with `docker compose up --build --force-recreate`
 - **Prettier errors**: Run `npx prettier . --write` to auto-fix
