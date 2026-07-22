@@ -25,6 +25,9 @@
           <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
         {% endif %}
       {% endif %}
+      {% if entry.ccf %}
+        <span class="ccf-badge ccf-{{ entry.ccf | downcase }}">CCF-{{ entry.ccf }}</span>
+      {% endif %}
       {% if entry.preview %}
         {% if entry.preview contains '://' %}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
