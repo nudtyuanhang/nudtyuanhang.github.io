@@ -30,9 +30,7 @@ His goal is to develop system abstractions and architectures that enable AI mode
 <div class="about-links">
   <span class="about-chip">🚀 Systems for AI</span>
   <span class="about-chip">🧠 LLM inference</span>
-  <a class="about-chip" href="https://github.com/gaoyh20" target="_blank" rel="noopener">
-    <i class="fa-brands fa-github"></i> GitHub
-  </a>
+  <span class="about-chip">⚙️ Efficient systems</span>
 </div>
 
 To learn more about his research, please visit the [publications](/publications/) page.
