@@ -23,9 +23,7 @@ latest_posts:
 
 Yuanhang Gao (高源航) is a PhD candidate at the National University of Defense Technology (NUDT), advised by Prof. Xiangrui Yang and Prof. Dongsheng Li. He received his master's degree from NUDT in June 2025.
 
-His research lies at the intersection of systems and artificial intelligence. He focuses on designing efficient and scalable systems for modern AI workloads, particularly large language model (LLM) inference. His research interests include LLM serving, KV cache optimization, memory-efficient inference, and distributed AI systems.
-
-His goal is to develop system abstractions and architectures that enable AI models to run faster, more efficiently, and at larger scale. His work explores how principles from computer systems, architecture, and networking can be leveraged to address emerging challenges in AI infrastructure.
+His research lies at the intersection of systems and AI, focusing on efficient and scalable systems for modern AI workloads, particularly large language model (LLM) inference. His interests include LLM serving, KV cache optimization, memory-efficient inference, and distributed AI systems. His goal is to develop system abstractions and architectures that enable faster, more efficient, and larger-scale AI models, drawing on principles from computer systems, architecture, and networking to address emerging challenges in AI infrastructure.
 
 <div class="about-links">
   <span class="about-chip">🚀 Systems for AI</span>
