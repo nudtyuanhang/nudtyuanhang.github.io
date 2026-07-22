@@ -28,8 +28,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-our-paper-magneto-load-balanced-key-value-service-for-write-intensive-workloads-was-accepted-by-ieee-transactions-on-services-computing-tsc",
-          title: 'Our paper “Magneto: Load-Balanced Key-Value Service for Write-Intensive Workloads” was accepted by IEEE...',
+            },},{id: "news-a-paper-was-accepted-by-ieee-transactions-on-services-computing-tsc",
+          title: 'A paper was accepted by IEEE Transactions on Services Computing (TSC).',
           description: "",
           section: "News",},{
         id: 'social-email',
@@ -44,6 +44,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("/assets/pdf/cv.pdf", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/gaoyh20", "_blank");
         },
       },{
         id: 'social-scholar',
