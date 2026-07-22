@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
-        },{id: "nav-publications",
+  },{id: "nav-publications",
           title: "publications",
           description: "",
           section: "Navigation",
@@ -30,49 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-llm-inference-optimization-routing-quantization-amp-system-acceleration",
-        
-          title: "LLM Inference Optimization: Routing, Quantization &amp; System Acceleration",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/llm-inference-optimization/";
-          
-        },
-      },{id: "post-openai-o1-amp-o3-the-rise-of-reasoning-models",
-        
-          title: "OpenAI o1 &amp; o3: The Rise of Reasoning Models",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/openai-o1-o3-reasoning/";
-          
-        },
-      },{id: "post-deepmind-39-s-mind-evolution-scaling-llm-inference-with-evolutionary-search",
-        
-          title: "DeepMind&#39;s Mind Evolution: Scaling LLM Inference with Evolutionary Search",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/deepmind-mind-evolution/";
-          
-        },
-      },{id: "books-the-godfather",
+        },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-the-personal-homepage-has-officially-been-launched",
-          title: 'The personal homepage has officially been launched.',
+            },},{id: "news-our-paper-magneto-load-balanced-key-value-service-for-write-intensive-workloads-was-accepted-by-ieee-transactions-on-services-computing-tsc",
+          title: 'Our paper “Magneto: Load-Balanced Key-Value Service for Write-Intensive Workloads” was accepted by IEEE...',
           description: "",
           section: "News",},{
         id: 'social-email',
