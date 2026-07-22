@@ -18,3 +18,30 @@
   bibtex_show={true},
   selected={true}
 }
+
+@inproceedings{gao2024freqabsorb,
+  title={Optimizing In-network Caching for Key-Value Stores under Write-intensive Workloads},
+  author={Gao, Yuanhang and Chen, Yingwen and Yang, Xiangrui and Zhou, Huan and Tang, Shihua and Chen, Yuanfeng and Xu, Ming},
+  booktitle={2024 IEEE International Symposium on Parallel and Distributed Processing with Applications (ISPA)},
+  year={2024},
+  publisher={IEEE},
+  abbr={ISPA},
+  preview={freq-absorb.png},
+  pdf={ISPA2024_Freq-absorb.pdf},
+  abstract={Key-value stores suffer from performance degradation under write-intensive workloads because frequent writes invalidate cached data. Freq-absorb introduces delayed writes in the switch data plane, buffering write queries before committing them to backend servers. An FPGA-based top-of-rack switch prototype reduces switch misses from 99 percent to 48.4 percent under write-intensive workloads, improving cache hit rates and system performance.}
+}
+
+@article{liu2025cainnet,
+  title={CAInNet: In-Network Computing Model for AI Acceleration},
+  author={Liu, Zhongpei and Yang, Xiangrui and Yang, Ling and Gao, Yuanhang and Lu, Gaofeng and Wang, Baosheng and Su, Jinshu},
+  journal={Chinese Journal of Computers},
+  volume={48},
+  number={1},
+  year={2025},
+  doi={10.11897/SP.J.1016.2025.00019},
+  abbr={CJC},
+  preview={cainnet.png},
+  pdf={CAInNet_AI-Acceleration.pdf},
+  note={In Chinese},
+  abstract={CAInNet is a computing-network integrated in-network computing model for AI acceleration. It combines SIMD and MIMD execution modes with a programmable data plane, enabling protocol-independent packet processing and in-network computation for AI inference and training data. An implementation uses in-band network telemetry and an MLP-based packet classifier, achieving 98.3 percent accuracy with 5k routing entries while saving 98.7 percent of storage space without additional programmable data-plane latency.}
+}
