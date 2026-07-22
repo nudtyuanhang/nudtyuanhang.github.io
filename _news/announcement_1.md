@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-12-04 15:00:00-0400
+date: 2025-06-27 00:00:00+0800
 inline: true
 related_posts: false
 ---
 
-The personal homepage has officially been launched.
+Our paper "Magneto: Load-Balanced Key-Value Service for Write-Intensive Workloads" was accepted by IEEE Transactions on Services Computing (TSC).
